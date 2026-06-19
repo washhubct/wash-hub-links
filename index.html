@@ -36,10 +36,9 @@
   .wrap{width:100%; max-width:460px; display:flex; flex-direction:column; align-items:center;}
 
   /* Header */
-  .logo{width:120px; height:120px; border-radius:28px; background:#fff; padding:14px;
-    box-shadow:0 10px 30px rgba(0,0,0,.10); object-fit:contain; mix-blend-mode:multiply;}
-  h1{font-family:var(--display); font-weight:800; font-size:30px; letter-spacing:-.5px; margin-top:18px;}
-  .tag{color:var(--gray); font-size:14px; font-weight:500; margin-top:6px; text-align:center; line-height:1.4;}
+  .logo{width:210px; max-width:72%; height:auto; object-fit:contain; mix-blend-mode:multiply;}
+  .sr-only{position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0 0 0 0); border:0;}
+  .tag{color:var(--gray); font-size:14px; font-weight:500; margin-top:10px; text-align:center; line-height:1.4;}
   .pin{display:inline-flex; align-items:center; gap:5px; margin-top:10px; font-size:12px; font-weight:600;
     color:var(--blue); background:rgba(26,107,154,.08); padding:5px 12px; border-radius:999px;}
 
@@ -81,8 +80,8 @@
 </head>
 <body>
 <div class="wrap">
-  <img class="logo" src="logo.png" alt="WASH HUB">
-  <h1>WASH HUB</h1>
+  <img class="logo" src="logo.png" alt="WASH HUB Autolavaggi">
+  <h1 class="sr-only">WASH HUB Autolavaggi — Catania</h1>
   <p class="tag">Lavaggio auto self &amp; professionale</p>
   <span class="pin">📍 Catania · Lungomare &amp; Paesi Etnei</span>
 
